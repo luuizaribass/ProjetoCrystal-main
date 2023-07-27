@@ -1,0 +1,167 @@
+/* RESET CSS */
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+ /* FIM RESET CSS */
+
+#header, #footer {
+    background-color: #008374;
+}
+
+.primeira {
+    background-color: #23A092;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    flex-wrap: wrap;
+}
+
+/* HEADER */
+
+.nome {
+    font: 700 40px 'Lucida Sans', sans-serif;
+    color: white;
+}
+
+.item {
+    font: 500 25px 'Lucida', sans-serif;
+    color: white;
+    margin-left: 50px;
+}
+
+/* MAIN */
+
+.primeira .titulo {
+    font: 600 32px 'Lucida', sans-serif;
+    color: white;
+}
+
+.primeira .texto {
+    font: 500 26px 'Lucida', sans-serif;
+    color: white;
+}
+
+.primeira img {
+    width: 500px;
+    margin: 0px 0px 50px 100px;
+}
+
+.caixas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    /* margin-top: -35px; */
+    margin-top: -60px;
+}
+
+.caixas .imagem img {
+    width: 60px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.caixa {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 25px;
+    width: 200px;
+    height: 170px;
+    background-color: white;
+}
+
+.planos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.plano {
+    background-color: #edecec;
+    text-align: center;
+    margin: 0 100px;
+}
+
+.plano-tipo, .preco, .titulo {
+    font: 700 25px 'Lucida', sans-serif;
+    padding: 30px 0;
+}
+
+.beneficio {
+    font: 500 20px 'Lucida', sans-serif;
+    padding: 0 20px;
+}
+
+.linha-la {
+    background-color: #F6A256;
+    height: 20px;
+    margin: 20px 0px;
+}
+
+.linha-le {
+    background-color: #FF912D;
+    height: 20px;
+    margin: 20px 0px;
+}
+
+.conteudo .texto, .conteuudo .texto {
+    font: 400 20px 'Lucida', sans-serif;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.news .conteudo .texto {
+    color: white;
+}
+
+#footer {
+    height: 200px;
+}
+
+#footer .container {
+    height: 200px;
+}
+
+#footer .menu {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button{
+    padding: 5px;
+    height: 25px;
+    border-radius: 5px;
+    font: 400 15px 'Lucida', sans-serif;
+}
+
+input {
+    width: 85%;
+}
+
+#footer {
+    margin-top: 60px;
+}
+
+.container .conteuudo {
+    margin: 90px;
+}
